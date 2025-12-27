@@ -1,7 +1,7 @@
-# Performance Testing Assignment — Batch 17
+# Assignment 3
 
 ## Overview
-This repository contains JMeter test plans, test data, and generated HTML reports for the assignments on load test using Jmeter & API Chaining.
+This repository contains JMeter test plans, test data, and generated HTML reports for the assignments on load test & API Chaining using Jmeter .
 
 ## Repository Structure
 - `Dmoney.jtl` — sample results file at repo root
@@ -23,11 +23,11 @@ This repository contains JMeter test plans, test data, and generated HTML report
 ## How to Run (examples)
 Run a JMeter test non-GUI and generate an HTML report:
 
-Windows example (PowerShell/CMD):
+Dmoney API Chaining example (PowerShell/CMD):
 
 jmeter -n -t Dmoney/Dmoney.jmx -l Dmoney/Dmoney.jtl -j jmeter_dmoney.log -e -o Reports/dmoney_report
 
-Booking example:
+Load test- Booking example:
 
 jmeter -n -t Booking/booking.jmx -l Booking/booking.jtl -j jmeter_booking.log -e -o Reports/booking_report
 
@@ -35,9 +35,6 @@ Notes:
 - The `-n` flag runs JMeter in non-GUI mode.
 - The `-e -o <folder>` options generate an HTML report in the specified folder.
 - Ensure the output report folder does not already exist or is empty.
-
-## Viewing Reports
-Open `Reports/index.html` or the generated HTML folder (e.g., `Reports/dmoney_report/index.html`) in your browser to view dashboards.
 
 ## Test Data
 Test CSVs are in `Dmoney/Resources/` and are referenced by the respective JMX files.
