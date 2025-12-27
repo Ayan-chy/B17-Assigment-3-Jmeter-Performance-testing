@@ -1,4 +1,4 @@
-# Assignment 3
+# Project Title:Jmeter Performance Testing
 
 ## Overview
 This repository contains JMeter test plans, test data, and generated HTML reports for the assignments on load test & API Chaining using Jmeter .
